@@ -33,11 +33,9 @@ layout: default
 
 {% if site.theme_config.show_blog == true %}
   <h2>{{ site.theme_config.home.title_blog }}</h2>
-  <p class="post-date text-bold text-upcase">
-    {% if page.release == true %}
-      {% include post_list.html %}
-    {% endif %}    
-  </p>
+  {% if site.release %}
+    {% include post_list.html %}
+  {% endif %}    
 {% endif %}
 
 
