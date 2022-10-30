@@ -21,7 +21,7 @@ layout: default
   {% include card_list.html collection=site.data.home.project_entries %}
 {% endif %}
 
-{% if site.theme_config.show_old_projects == true %}
+{% if site.theme_config.show_paper_review == true %}
   <h2>{{ site.theme_config.home.title_paper_review }}</h2>
   {% include card_list.html collection=site.data.home.paper_review %}
 {% endif %}
@@ -33,7 +33,8 @@ layout: default
 
 {% if site.theme_config.show_blog == true %}
   <h2>{{ site.theme_config.home.title_blog }}</h2>
-  {% include post_list.html %}
+  {% if post_list.release == true %}
+    {% include post_list.html %}
 {% endif %}
 
 
