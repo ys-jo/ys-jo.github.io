@@ -3,6 +3,10 @@ layout: post
 title: About
 ---
 
-This is an example page!
+Hello,  
+My name is YoungSub, Jo  
 
-Actually, it has the same layout of a post...
+I'm very interested in deep learning.  
+Here, I would like to summarize what I have studied.  
+
+Thank you for visiting.

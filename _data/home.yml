@@ -11,8 +11,8 @@ navbar_entries:
 project_entries:
   - title: Face-landmark
     url: Face-landmark-project
-    desc: Face landmakr
-    highlight: NEW
+    desc: Face landmark
+    highlight: ~ing
 
   #- title: Project 2
   #  url: overview-post
