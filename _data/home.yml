@@ -10,7 +10,7 @@ navbar_entries:
 
 project_entries:
   - title: Face-landmark
-    url: overview-post
+    url: Face-landmark-project
     desc: Face landmakr
     highlight: NEW
 
