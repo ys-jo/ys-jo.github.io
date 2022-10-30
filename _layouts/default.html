@@ -12,13 +12,13 @@
           {%- if site.theme_config.show_copyright == true -%}
           &copy;&nbsp;{{ "now" | date: "%Y" }}&nbsp;{{site.author}}
           &nbsp;
-          •
+          ???
           &nbsp;
           {%- endif -%}
           {%- if site.soopr -%}
           Powered by <a href="https://www.soopr.co" target="_blank" rel="noreferrer">Soopr</a>
           &nbsp;
-          •
+          ???
           &nbsp;
           {%- endif -%}
           Theme&nbsp; <a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a>
@@ -27,11 +27,7 @@
     </main>
 
     {%- if site.soopr -%}
-      {%- if site.soopr.publish_token and jekyll.environment == "production" -%}
-        <script async defer data-soopr-token="{{site.soopr.publish_token}}" src="https://sdk.soopr.co/soopr.js"></script>
-      {%- else -%}
-        <script async defer src="https://sdk.soopr.co/soopr.js"></script>
-      {%- endif -%}
+      <script async defer data-soopr-token='pt_c83e323a7b72d4204fd17773a4aa748e' src='https://sdk.soopr.co/soopr.js'></script>
     {%- endif -%}
   </body>
 </html>
